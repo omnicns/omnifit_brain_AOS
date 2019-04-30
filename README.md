@@ -231,6 +231,7 @@
 
 ### 라이브러리 참조 설정
 > Gradle
+
 프로젝트 레벨
 ```groovy
   dependencies {
