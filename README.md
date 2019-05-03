@@ -1,4 +1,5 @@
-# OmnifitBrain
+# OmnifitBrain 
+> [한국어](README.md), [ENGLISH](README.ko.md)
 
 > 개요
 
