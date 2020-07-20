@@ -222,23 +222,23 @@ During measurement (every 2 seconds), measurement data is returned at the end of
 | [10] | `Right brain gamma size judgment value` | Right brain gamma wave (less than 30-40Hz) Size determination of absolute power | 0 to 10 |
 | [11] | `Left brain gamma size judgment value` | Left brain gamma wave (less than 30-40Hz) Size determination of absolute power | 0 to 10 |
 | [12] | `Concentration size judgment value` | Concentration size determination value | 0 to 10 |
-| [13] | `Right brain relaxation size judgment value` | | Right brain relaxation size determination value | 0 ~ 10 |
+| [13] | `Right brain relaxation size judgment value` | Right brain relaxation size determination value | 0 ~ 10 |
 | [14] | `Left brain relaxation size judgment value` | Left brain relaxation size determination value | 0 to 10 |
 | [15] | `Left and right brain balance size judgment value` | Left-right brain balance size determination value | 0 to 10 |
-| [16] ~ [23] ([16] == [0] 일때, [0] ~ [7]) | `Left brain delta power spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
-| [24] ~ [31] ([16] == [0] 일때, [8] ~ [15]) | `Left brain theta power spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
-| [32] ~ [39] ([16] == [0] 일때, [16] ~ [23]) | `Left brain alpha power spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
-| [40] ~ [45] ([16] == [0] 일때, [24] ~ [29]) | `Left Brain Low Beta Power Spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
-| [46] ~ [55] ([16] == [0] 일때, [30] ~ [39]) | `Left Brain Middle Beta Power Spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
-| [56] ~ [76] ([16] == [0] 일때, [40] ~ [60]) | `Left Brain High Beta Power Spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
-| [77] ~ [97] ([16] == [0] 일때, [61] ~ [81]) | `Left brain gamma power spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
-| [144] ~ [151] ([144] == [0] 일때, [0] ~ [7]) | `Right Brain Delta Power Spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
-| [152] ~ [159] ([144] == [0] 일때, [8] ~ [15]) | `Right brain theta power spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
-| [160] ~ [167] ([144] == [0] 일때, [16] ~ [23]) | `Right Brain Alpha Power Spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
-| [168] ~ [173] ([144] == [0] 일때, [24] ~ [29]) | `Right Brain Low Beta Power Spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
-| [174] ~ [183] ([144] == [0] 일때, [30] ~ [39]) | `Right Brain Middle Beta Power Spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
-| [184] ~ [204] ([144] == [0] 일때, [40] ~ [60]) | `Right Brain High Beta Power Spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
-| [205] ~ [225] ([144] == [0] 일때, [61] ~ [81]) | `Right brain gamma power spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
+| [16] ~ [23] (if [16] == [0], [0] ~ [7]) | `Left brain delta power spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
+| [24] ~ [31] (if [16] == [0], [8] ~ [15]) | `Left brain theta power spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
+| [32] ~ [39] (if [16] == [0], [16] ~ [23]) | `Left brain alpha power spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
+| [40] ~ [45] (if [16] == [0], [24] ~ [29]) | `Left Brain Low Beta Power Spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
+| [46] ~ [55] (if [16] == [0], [30] ~ [39]) | `Left Brain Middle Beta Power Spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
+| [56] ~ [76] (if [16] == [0], [40] ~ [60]) | `Left Brain High Beta Power Spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
+| [77] ~ [97] (if [16] == [0], [61] ~ [81]) | `Left brain gamma power spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
+| [144] ~ [151] (if [144] == [0], [0] ~ [7]) | `Right Brain Delta Power Spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
+| [152] ~ [159] (if [144] == [0], [8] ~ [15]) | `Right brain theta power spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
+| [160] ~ [167] (if [144] == [0], [16] ~ [23]) | `Right Brain Alpha Power Spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
+| [168] ~ [173] (if [144] == [0], [24] ~ [29]) | `Right Brain Low Beta Power Spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
+| [174] ~ [183] (if [144] == [0], [30] ~ [39]) | `Right Brain Middle Beta Power Spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
+| [184] ~ [204] (if [144] == [0], [40] ~ [60]) | `Right Brain High Beta Power Spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
+| [205] ~ [225] (if [144] == [0], [61] ~ [81]) | `Right brain gamma power spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
 
 Power spectrum section (0.488 Hz in increments of frequency per index)
 | Data classification | Hz range | Index section | Quantity |
