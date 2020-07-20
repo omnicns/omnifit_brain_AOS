@@ -209,8 +209,8 @@ During measurement (every 2 seconds), measurement data is returned at the end of
 
 | Index | Data classification | meaning | Range |
 |---|:---:|:---:|---:|
-| [0] | `Right brain theta size judgment value' | Right brain theta wave (less than 4-8Hz) Size determination of absolute power | 0 to 10 |
-| [1] | `Left brain theta size judgment value' | Left brain theta wave (less than 4-8Hz) Size determination of absolute power | 0 to 10 |
+| [0] | `Right brain theta size judgment value` | Right brain theta wave (less than 4-8Hz) Size determination of absolute power | 0 to 10 |
+| [1] | `Left brain theta size judgment value` | Left brain theta wave (less than 4-8Hz) Size determination of absolute power | 0 to 10 |
 | [2] | `Right brain alpha size judgment value` | Right brain alpha (less than 8-12Hz) Size determination of absolute power | 0 to 10 |
 | [3] | `Left brain alpha size judgment value` | Left brain alpha (less than 8-12HZ) Size determination of absolute power | 0 to 10 |
 | [4] | `Right Brain Low Beta size judgment value` | Right brain Low beta wave (below 12-15Hz) Size determination of absolute power | 0 to 10 |
@@ -223,7 +223,7 @@ During measurement (every 2 seconds), measurement data is returned at the end of
 | [11] | `Left brain gamma size judgment value` | Left brain gamma wave (less than 30-40Hz) Size determination of absolute power | 0 to 10 |
 | [12] | `Concentration size judgment value` | Concentration size determination value | 0 to 10 |
 | [13] | `Right brain relaxation size judgment value` | | Right brain relaxation size determination value | 0 ~ 10 |
-| [14] | `Left brain relaxation size judgment value` | Left brain relaxation size determination value | 0 to 10 |"
+| [14] | `Left brain relaxation size judgment value` | Left brain relaxation size determination value | 0 to 10 |
 | [15] | `Left and right brain balance size judgment value` | Left-right brain balance size determination value | 0 to 10 |
 | [16] ~ [23] ([16] == [0] 일때, [0] ~ [7]) | `Left brain delta power spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
 | [24] ~ [31] ([16] == [0] 일때, [8] ~ [15]) | `Left brain theta power spectrum` | It is the value multiplied by the gain factor (100). Therefore, to obtain the actual value, divide 100 by the value in the right range. | 0 ~ 65535 |
